@@ -72,6 +72,11 @@ nav a{
 main p{
     text-align: justify;
 }
+main p::first-letter{
+    color:deepskyblue;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
 #m1+p>img{
     width:130px;
     float:left;
